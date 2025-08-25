@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wildlife in Kenya</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>🐘 Wildlife in Kenya 🦁</h1>
+    <p>Explore the beauty of Kenyan wildlife!</p>
+  </header>
+
+  <main>
+    <!-- Part 1: JavaScript basics -->
+    <section>
+      <h2>Part 1: Basics</h2>
+      <p id="basics-output"></p>
+    </section>
+
+    <!-- Part 2: Functions -->
+    <section>
+      <h2>Part 2: Functions</h2>
+      <button onclick="showFormattedAnimal()">Format Animal Name</button>
+      <p id="function-output"></p>
+    </section>
+
+    <!-- Part 3: Loops -->
+    <section>
+      <h2>Part 3: Loops</h2>
+      <button onclick="listAnimals()">List Animals</button>
+      <ul id="animal-list"></ul>
+
+      <button onclick="countdownSafari()">Safari Countdown</button>
+      <p id="countdown"></p>
+    </section>
+
+    <!-- Part 4: DOM Manipulation -->
+    <section>
+      <h2>Part 4: DOM Manipulation</h2>
+      <button onclick="toggleInfo()">Toggle Info</button>
+      <p id="kenya-info" class="hidden">
+        Kenya is home to the Big Five: Lion, Elephant, Rhino, Buffalo, and Leopard.
+      </p>
+
+      <button onclick="addAnimal()">Add New Animal</button>
+      <div id="new-animals"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
